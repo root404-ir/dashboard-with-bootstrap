@@ -1,0 +1,15 @@
+body{
+    font-family: YekanBakh;
+}
+@font-face {
+    font-family: YekanBakh;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/YekanBakh-Bold.bbd877a3.woff') format('woff');
+}
+@font-face {
+    font-family: YekanBakh;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/YekanBakh-Medium.f7360956.woff') format('woff');
+}
