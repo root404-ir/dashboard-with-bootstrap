@@ -13,3 +13,7 @@ body{
     font-weight: 500;
     src: url('../fonts/YekanBakh-Medium.f7360956.woff') format('woff');
 }
+.w_inherit
+{
+    width: inherit;
+}
