@@ -1,8 +1,8 @@
-let home = document.getElementById('home')
-let dashboard = document.getElementById('dashboard')
-let orders = document.getElementById('orders')
-let curses = document.getElementById('curses')
-let customers = document.getElementById('customers')
+let home = document.querySelector('.home')
+let dashboard = document.querySelector('.dashboard')
+let orders = document.querySelector('.orders')
+let curses = document.querySelector('.curses')
+let customers = document.querySelector('.customers')
 
 
 dashboard.addEventListener("click", function () {
