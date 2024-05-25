@@ -456,19 +456,19 @@
                         </div>
                         <form class="row p-3">
                             <div class="col-sm-12 col-md-6 mt-sm-3 mt-md-0">
-                                <label for="" class="form-label">نام</label>
-                                <input type="text" class="form-control">
+                                <label class="form-label">نام</label>
+                                <input type="text" class="form-control" placeholder="محمد">
                             </div>
                             <div class="col-sm-12 col-md-6 mt-sm-3 mt-md-0">
-                                <label for="" class="form-label">نام حانوادگی</label>
+                                <label class="form-label">نام حانوادگی</label>
+                                <input type="text" class="form-control" placeholder="صفرپور">
+                            </div>
+                            <div class="col-sm-12 col-md-6 mt-3">
+                                <label class="form-label">ایمیل</label>
                                 <input type="text" class="form-control">
                             </div>
                             <div class="col-sm-12 col-md-6 mt-3">
-                                <label for="" class="form-label">ایمیل</label>
-                                <input type="text" class="form-control">
-                            </div>
-                            <div class="col-sm-12 col-md-6 mt-3">
-                                <label for="" class="form-label">شغل</label>
+                                <label class="form-label">شغل</label>
                                 <select class="form-select">
                                     <option selected>انتخاب کنید</option>
                                     <option value="1">کارشناس لینوکس</option>
@@ -496,12 +496,24 @@
                 </div>
             </div>
         </div>
+        <div class="dropdown position-fixed bottom-0 end-0 me-4 mb-4">
+            <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">تغییر تم</button>
+            <ul class="dropdown-menu">
+                <li>
+                    <button class="dropdown-item active" id="lightModeBtn">روشن</button>
+                </li>
+                <li>
+                    <button class="dropdown-item" id="darkModeBtn">تاریک</button>
+                </li>
+            </ul>
+        </div>
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/persian.date.js"></script>
     <script src="js/persian.datepicker.js"></script>
     <script src="js/custom-date.js"></script>
+    <script src="js/dark_light_mode.js"></script>
 </body>
 
 </html>
